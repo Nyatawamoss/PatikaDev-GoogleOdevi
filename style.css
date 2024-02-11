@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+/*Google Logo*/
+.Logo{
+    display: block;
+    margin: auto;
+}
+
+/*Google Search Bar Start*/
+table { 
+    margin: auto;
+}
+
+.SearchBar{
+    display: block;
+    margin: auto;
+    background-color: rgb(244, 243, 243);
+    padding:0px 500px 0px 500px;
+    margin-top: 1px;
+    
+}
+
+.SearchBar input[type="text"]{
+    padding: 1px;
+    width: 30em;
+}
+
+.SearchBar input[type="submit"]{
+    margin-top: 3px;
+    padding:3px;
+}
+
+.SubParts{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+}
+
+#Sub1{
+    width: 33.3%;
+    text-align: center;
+    background-color: aquamarine;
+    margin-right: 1px;
+    padding-top:11px ;
+}
+
+#Sub2{
+    width: 33.3%;
+    text-align: center;
+    background-color: aquamarine;
+    margin-right: 1px;
+}
+#Sub3{
+    width: 33.3%;
+    text-align: center;
+    background-color: aquamarine;
+
+    margin-right: 1px;
+}
+/*Google Search Bar End*/
+
+/*Footer Start*/
+.footer{
+    text-align: center;
+    font-size: small;
+}
+/*Footer End*/
